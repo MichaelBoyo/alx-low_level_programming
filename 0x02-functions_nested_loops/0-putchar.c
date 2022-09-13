@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - check the code
+ * main - just a printf code
  *
  * Return: Always 0.
  */
