@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h> 
 /**
  * main - check the code
  *
@@ -8,14 +9,17 @@ void print_alphabet(void);
 int main(void)
 {
     print_alphabet();
+
     return (0);
 }
 
-void print_alphabet()
+void print_alphabet(void)
 {
-	for(int x = 'A'; x <= 'Z'; x++)
+	int x;
+	for(x = 'A'; x <= 'Z'; x++)
 	{
     		int lower_x = tolower(x);
     		putchar(lower_x);
 	}
+	printf("\n");
 }
